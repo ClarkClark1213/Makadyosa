@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Coiny&family=DynaPuff:wght@400..700&family=Galindo&family=Griffy&family=Honk:MORF,SHLN@0..45,0..100&family=Lexend+Deca:wght@100..900&family=Lobster&family=Mogra&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@500&family=Ranchers&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Puddles&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(0, 70, 0);
+}
+nav{
+    display: flex;
+    width: 80%;
+    flex-direction: end;
+    justify-self: center;
+    box-shadow: 0px 0px 5px 5px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.content{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.content a{
+    text-decoration: none;
+    color: rgb(50, 105, 50);
+    font-size: 20px;
+    font-family: "bangers";
+    padding-right: 50px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+
+}
+.content a:hover{
+    text-shadow: 0px 0px 0px ;;
+}
+.logo{
+    margin-right: auto;
+
+}
+.logo img{
+    width: 50px;
+}
+
+.cardcontainer{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;     
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.cardwrapper{
+    
+    width: 100%;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    box-shadow: inset 0px 0px 10px 2px;
+    border-radius: 20px;
+    background-color: rgb(0, 63, 0);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 10px 10px 0px 10px;
+    border-radius: inherit ;
+    box-shadow:  0px 0px 10px 2px;
+}
+.profile{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    
+}
+.info p{
+    font-family: "bangers";
+    color: cadetblue;
+    font-weight: 400;
+    margin: 2px;
+}
+.info{
+   
+    width: 100%;
+    height: 40%;
+    padding: 0px 10px 0px 10px;
+}
+
+@media (width < 949px){
+    nav{
+        flex-direction: column;
+    }
+    .content a{
+        font-size: 25px;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .content{
+        width: 100%;
+        gap: 2px;
+        flex-direction: column;
+        padding: 0px;
+       
+    }
+  
+    
+    .logo{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .cardcontainer{
+        margin: 1rem;
+       
+    }
+    .card{
+        width: 300px;
+        height: 400px;
+        
+        
+    }
+}
